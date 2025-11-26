@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Network - Protect Earth</title>
+    <title>未来科技 - 引领创新</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -14,12 +14,12 @@
         }
 
         :root {
-            --primary: #1e3c27;
-            --secondary: #3a6b4f;
-            --accent: #a2c523;
-            --light: #f4f7f2;
-            --dark: #0f241b;
-            --text: #3e3e3e;
+            --primary: #1a1a4e;
+            --secondary: #4a4a8a;
+            --accent: #00c6ff;
+            --light: #f0f5ff;
+            --dark: #0a0a2e;
+            --text: #333366;
             --white: #ffffff;
         }
 
@@ -101,7 +101,7 @@
         }
 
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80');
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
             background-size: cover;
             background-position: center;
             height: 80vh;
@@ -252,17 +252,17 @@
             color: var(--text);
         }
 
-        .initiatives {
+        .services {
             background-color: var(--white);
         }
 
-        .initiatives-grid {
+        .services-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
         }
 
-        .initiative-card {
+        .service-card {
             background-color: var(--light);
             border-radius: 10px;
             overflow: hidden;
@@ -270,37 +270,37 @@
             transition: transform 0.3s ease;
         }
 
-        .initiative-card:hover {
+        .service-card:hover {
             transform: translateY(-10px);
         }
 
-        .initiative-img {
+        .service-img {
             height: 200px;
             overflow: hidden;
         }
 
-        .initiative-img img {
+        .service-img img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             transition: transform 0.5s ease;
         }
 
-        .initiative-card:hover .initiative-img img {
+        .service-card:hover .service-img img {
             transform: scale(1.1);
         }
 
-        .initiative-content {
+        .service-content {
             padding: 1.5rem;
         }
 
-        .initiative-content h3 {
+        .service-content h3 {
             font-size: 1.5rem;
             margin-bottom: 1rem;
             color: var(--dark);
         }
 
-        .initiative-content p {
+        .service-content p {
             margin-bottom: 1.5rem;
         }
 
@@ -427,7 +427,7 @@
                 grid-template-columns: 1fr;
             }
             
-            .initiatives-grid {
+            .services-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
             
@@ -475,7 +475,7 @@
                 display: block;
             }
             
-            .initiatives-grid {
+            .services-grid {
                 grid-template-columns: 1fr;
             }
             
@@ -499,19 +499,19 @@
     <header>
         <div class="container nav-container">
             <div class="logo">
-                <i class="fas fa-seedling"></i>
-                <span>Green Network</span>
+                <i class="fas fa-microchip"></i>
+                <span>未来科技</span>
             </div>
             <nav>
                 <div class="mobile-menu">
                     <i class="fas fa-bars"></i>
                 </div>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#initiatives">Initiatives</a></li>
-                    <li><a href="#get-involved">Get Involved</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#services">服务</a></li>
+                    <li><a href="#get-involved">联系我们</a></li>
+                    <li><a href="#contact">联系方式</a></li>
                 </ul>
             </nav>
         </div>
@@ -520,9 +520,9 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="container hero-content">
-            <h1>Protect Our Planet, Preserve Our Future</h1>
-            <p>Join the global movement to create a sustainable world through conservation, education, and community action.</p>
-            <a href="#get-involved" class="btn">Join Our Network</a>
+            <h1>创新科技，引领未来</h1>
+            <p>探索前沿技术，打造智能解决方案，让科技改变生活。</p>
+            <a href="#get-involved" class="btn">了解更多</a>
         </div>
     </section>
 
@@ -530,82 +530,82 @@
     <section id="about">
         <div class="container">
             <div class="section-title">
-                <h2>About Green Network</h2>
-                <p>We are a global community dedicated to environmental protection and sustainable development.</p>
+                <h2>关于未来科技</h2>
+                <p>我们致力于科技创新，为客户提供最先进的技术解决方案。</p>
             </div>
             <div class="about-content">
                 <div class="about-img">
-                    <img src="https://images.unsplash.com/photo-1507591064344-4c6ce005b128?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Team planting trees">
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="AI机器人">
                 </div>
                 <div class="about-text">
-                    <h3>Our Mission</h3>
-                    <p>Green Network is committed to creating a sustainable future by protecting natural ecosystems, promoting renewable energy, and empowering communities to take environmental action.</p>
-                    <p>Founded in 2010, we've grown from a small grassroots organization to an international network with over 50,000 members across 120 countries.</p>
-                    <p>Our approach combines scientific research, community engagement, and policy advocacy to address the most pressing environmental challenges of our time.</p>
-                    <a href="#" class="btn">Learn More</a>
+                    <h3>我们的使命</h3>
+                    <p>未来科技专注于人工智能、大数据、云计算和物联网等前沿技术的研发与应用，为企业提供全方位的数字化转型解决方案。</p>
+                    <p>自2015年成立以来，我们已为超过500家企业提供了专业的技术服务，帮助他们在数字化时代保持竞争优势。</p>
+                    <p>我们的团队由来自全球顶尖科技公司的专家组成，拥有丰富的行业经验和深厚的技术积累。</p>
+                    <a href="#" class="btn">了解更多</a>
                 </div>
             </div>
             <div class="stats">
                 <div class="stat-item">
-                    <i class="fas fa-tree"></i>
-                    <h3 class="counter" data-target="2500000">0</h3>
-                    <p>Trees Planted</p>
+                    <i class="fas fa-robot"></i>
+                    <h3 class="counter" data-target="50">0</h3>
+                    <p>AI解决方案</p>
                 </div>
                 <div class="stat-item">
                     <i class="fas fa-users"></i>
-                    <h3 class="counter" data-target="50000">0</h3>
-                    <p>Active Members</p>
+                    <h3 class="counter" data-target="500">0</h3>
+                    <p>合作企业</p>
                 </div>
                 <div class="stat-item">
-                    <i class="fas fa-globe-americas"></i>
-                    <h3 class="counter" data-target="120">0</h3>
-                    <p>Countries Reached</p>
+                    <i class="fas fa-cloud"></i>
+                    <h3 class="counter" data-target="99">0</h3>
+                    <p>云端服务</p>
                 </div>
                 <div class="stat-item">
-                    <i class="fas fa-recycle"></i>
-                    <h3 class="counter" data-target="1500">0</h3>
-                    <p>Cleanup Projects</p>
+                    <i class="fas fa-chart-line"></i>
+                    <h3 class="counter" data-target="30">0</h3>
+                    <p>数据平台</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Initiatives Section -->
-    <section class="initiatives" id="initiatives">
+    <!-- Services Section -->
+    <section class="services" id="services">
         <div class="container">
             <div class="section-title">
-                <h2>Our Initiatives</h2>
-                <p>Discover the key programs and projects we're implementing to protect our planet.</p>
+                <h2>我们的服务</h2>
+                <p>提供全方位的科技解决方案，助力企业数字化转型。</p>
             </div>
-            <div class="initiatives-grid">
-                <div class="initiative-card">
-                    <div class="initiative-img">
-                        <img src="https://dialogue.earth/content/uploads/2021/04/lessons-from-the-rush-to-reforest-china-dialogue-2400x1599.jpg" alt="Reforestation">
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="人工智能">
                     </div>
-                    <div class="initiative-content">
-                        <h3>Global Reforestation</h3>
-                        <p>Planting millions of trees worldwide to restore ecosystems, combat climate change, and protect biodiversity.</p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-                <div class="initiative-card">
-                    <div class="initiative-img">
-                        <img src="https://images.unsplash.com/photo-1621451537084-482c73073a0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Ocean Conservation">
-                    </div>
-                    <div class="initiative-content">
-                        <h3>Ocean Conservation</h3>
-                        <p>Protecting marine ecosystems, reducing plastic pollution, and promoting sustainable fishing practices.</p>
-                        <a href="#" class="btn">Learn More</a>
+                    <div class="service-content">
+                        <h3>人工智能</h3>
+                        <p>提供机器学习、深度学习、自然语言处理等AI解决方案，帮助企业实现智能化升级。</p>
+                        <a href="#" class="btn">了解详情</a>
                     </div>
                 </div>
-                <div class="initiative-card">
-                    <div class="initiative-img">
-                        <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" alt="Renewable Energy">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="大数据分析">
                     </div>
-                    <div class="initiative-content">
-                        <h3>Renewable Energy</h3>
-                        <p>Promoting solar, wind, and other clean energy sources to reduce dependence on fossil fuels.</p>
-                        <a href="#" class="btn">Learn More</a>
+                    <div class="service-content">
+                        <h3>大数据分析</h3>
+                        <p>通过大数据技术挖掘数据价值，为企业提供精准的商业洞察和决策支持。</p>
+                        <a href="#" class="btn">了解详情</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" alt="云计算">
+                    </div>
+                    <div class="service-content">
+                        <h3>云计算服务</h3>
+                        <p>提供弹性、安全、高效的云计算解决方案，助力企业降低IT成本，提升运营效率。</p>
+                        <a href="#" class="btn">了解详情</a>
                     </div>
                 </div>
             </div>
@@ -615,9 +615,9 @@
     <!-- CTA Section -->
     <section class="cta" id="get-involved">
         <div class="container">
-            <h2>Join Our Global Movement</h2>
-            <p>Together, we can create a sustainable future for generations to come. Every action counts, no matter how small.</p>
-            <a href="#" class="btn">Become a Member</a>
+            <h2>开启您的数字化之旅</h2>
+            <p>我们的专业团队随时为您提供最优质的科技服务，助力您的企业在数字时代脱颖而出。</p>
+            <a href="#" class="btn">立即咨询</a>
         </div>
     </section>
 
@@ -626,8 +626,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <h3>Green Network</h3>
-                    <p>We are dedicated to protecting our planet through collaborative action, education, and sustainable solutions.</p>
+                    <h3>未来科技</h3>
+                    <p>专注于科技创新的领先企业，为客户提供最先进的技术解决方案。</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -636,34 +636,34 @@
                     </div>
                 </div>
                 <div class="footer-column">
-                    <h3>Quick Links</h3>
+                    <h3>快速链接</h3>
                     <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#initiatives">Initiatives</a></li>
-                        <li><a href="#get-involved">Get Involved</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#about">关于我们</a></li>
+                        <li><a href="#services">服务</a></li>
+                        <li><a href="#get-involved">联系我们</a></li>
+                        <li><a href="#contact">联系方式</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3>Our Programs</h3>
+                    <h3>解决方案</h3>
                     <ul class="footer-links">
-                        <li><a href="#">Reforestation</a></li>
-                        <li><a href="#">Ocean Cleanup</a></li>
-                        <li><a href="#">Wildlife Protection</a></li>
-                        <li><a href="#">Climate Education</a></li>
-                        <li><a href="#">Sustainable Agriculture</a></li>
+                        <li><a href="#">人工智能</a></li>
+                        <li><a href="#">大数据分析</a></li>
+                        <li><a href="#">云计算</a></li>
+                        <li><a href="#">物联网</a></li>
+                        <li><a href="#">区块链</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3>Contact Us</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Copper Creek Drive, New York</p>
-                    <p><i class="fas fa-phone"></i> +1 (312) 171-0771</p>
-                    <p><i class="fas fa-envelope"></i> support@greennetwork.org</p>
+                    <h3>联系我们</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 科技园区创新大道1号</p>
+                    <p><i class="fas fa-phone"></i> +86 123 4567 8900</p>
+                    <p><i class="fas fa-envelope"></i> info@futuretech.com</p>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2025 Green Network. All rights reserved.</p>
+                <p>&copy; 2025 未来科技. 保留所有权利.</p>
             </div>
         </div>
     </footer>
@@ -718,6 +718,4 @@
         });
     </script>
 </body>
-
 </html>
-
